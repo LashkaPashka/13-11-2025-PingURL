@@ -75,7 +75,7 @@ Response:
 }
 ```
 
-2. POST `get-info-links` - получение информации о ссылках в pdf файле
+2. POST `/get-info-links` - получение информации о ссылках в pdf файле
 
 Request:
 ```json
