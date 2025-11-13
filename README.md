@@ -16,8 +16,8 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/13-11-2025-PingURL.git
-cd 13-11-2025-PingURL
+git clone git@github.com:LashkaPashka/13-11-2025-PingURL.git
+cd 13-11-2025-PingURL.git
 ```
 
 2. Установите переменные окружения в файле (`config/local.yaml`).
