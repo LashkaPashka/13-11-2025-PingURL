@@ -56,6 +56,7 @@ Request:
 Response:
 ```json
 {
+	"links": [
 		{
 			"status_code": 404,
 			"status": "failed",
@@ -70,7 +71,7 @@ Response:
 		}
 	],
 	"status": "done",
-	"links_num": "fab2ea7e-b50c-4c25-bec3-355b3a7bd370"
+	"links_num": "4543e43b-8db1-405e-9b28-2535b5093a67"
 }
 ```
 
