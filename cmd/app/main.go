@@ -49,7 +49,7 @@ func main() {
 	router.Use(middleware.URLFormat)
 
 	router.Post("/url-check", urlstatus.New(service, logger))
-	router.Post("/get-links", createpdf.New(service, logger))
+	router.Post("/get-info-links", createpdf.New(service, logger))
 
 	logger.Info("starting server", slog.String("address", cfg.Address))
 

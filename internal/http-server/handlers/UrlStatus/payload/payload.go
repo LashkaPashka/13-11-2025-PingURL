@@ -3,7 +3,7 @@ package payload
 import "github.com/LashkaPashka/LinkCheck/internal/model"
 
 type Request struct {
-	Links []string `json:"links"`
+	Links []string `json:"links" validate:"required"`
 }
 
 type Response struct {

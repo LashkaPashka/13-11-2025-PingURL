@@ -22,7 +22,7 @@ func New(storagePath string, logger *slog.Logger) *Storage {
 			logger.Error("Storage path does not exist",
 				slog.String("path", storagePath),
 			)
-			return nil
+				return nil
 		}
 
 		logger.Error("Error checking storage path",
