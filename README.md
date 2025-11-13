@@ -22,6 +22,12 @@ cd 13-11-2025-PingURL
 
 2. Установите переменные окружения в файле (`config/local.yaml`).
 ```yaml
+env: "local"
+storage_path: "./storage/storage.json"
+http_server:
+  address: "0.0.0.0:8080"
+  timeout: 4s
+  idle_timeout: 30s
 ```
 
 3. Установка зависимостей.
