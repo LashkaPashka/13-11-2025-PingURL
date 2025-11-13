@@ -81,7 +81,7 @@ Request:
 ```json
 {
 	"links_list": [
-		"fab2ea7e-b50c-4c25-bec3-355b3a7bd370"
+		"4543e43b-8db1-405e-9b28-2535b5093a67"
 	]
 }
 ```
@@ -90,7 +90,6 @@ Response:
 ```pdf
 Link Check Report
 =======================
-https://ya.ru - up
 https://wfsfe.gg - down
 https://google.com - up
 ```
