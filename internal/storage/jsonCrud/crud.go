@@ -62,7 +62,7 @@ func (s *Storage) Save(link model.Links) (success bool, err error) {
 	}
 
 	if err = os.WriteFile(s.storagePath, encLinks, 0644); err != nil {
-		s.logger.Error("Invalid save task in file",
+		s.logger.Error("Failed to write links in file",
 			slog.String("op", op),
 			slog.String("err", err.Error()),
 		)
